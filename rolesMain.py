@@ -24,9 +24,8 @@ if __name__ == "__main__":
     st.title('D17 Job Roles ')
 
     # Display the initial job roles
-    st.write("Initial job roles:")
-    for employee in employees_list:
-        st.write(f"{employee['name']}: {employee['job_role']}")
+    st.write("Select Roles you had Last week from the menu")
+    
 
     # Take job role inputs for all users from the user
     st.write("\nUpdate Job Roles:")
