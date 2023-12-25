@@ -28,7 +28,7 @@ if __name__ == "__main__":
     
 
     # Take job role inputs for all users from the user
-    st.write("\nUpdate Job Roles:")
+    #st.write("\nUpdate Job Roles:")
     for employee in employees_list:
         new_job_role = st.selectbox(f"Select the new job role for {employee['name']}", ["Kitchen", "Hall", "Hallway stairs", "Mop", "Tiolet"], index=0)
         employee['job_role'] = new_job_role
